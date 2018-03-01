@@ -1,5 +1,6 @@
-with import <nixpkgs> {};
+{pkgs}:
 
+with pkgs;
 {
-  cquery = callPackage ./tools/cquery { };
+  cquery = callPackage ./tools/cquery {};
 }
