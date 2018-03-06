@@ -5,7 +5,7 @@ let
       owner = "autozimu";
       repo = "LanguageClient-neovim";
       rev = "next";
-      sha256 = "06vdmkn7f3ni27w4l9j13c2glpr1csbc49jc83lgiikb5bgcnjca";
+      sha256 = "007rd9vq69ijcd35jngh948ag1flxsdrn0k789qcir1sjzkx854m";
     };
     client = import ./client.nix { inherit src rustPlatform; };
 in

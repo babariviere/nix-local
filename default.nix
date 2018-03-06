@@ -3,5 +3,5 @@
 with pkgs;
 {
   cquery = callPackage ./tools/cquery {};
-  LanguageClient-neovim = callPackage ./vim-plugins/languageclient {};
+  languageclient-neovim = callPackage ./vim-plugins/languageclient {};
 }
