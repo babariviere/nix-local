@@ -10,6 +10,7 @@ rec {
   xi = callPackage ./editors/xi {};
   xi-term = callPackage ./editors/xi-term { inherit xi; };
   fonts = {
+    ibm3270 = callPackage ./fonts/ibm3270 {};
     head-up-daisy = callPackage ./fonts/headupdaisy {};
   };
 }
